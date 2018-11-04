@@ -13,34 +13,18 @@ root: .
 同僚は、[バーションの管理は]({{page.root}} / reference＃version-control)を使って作業を
 管理することを提案しています。 バーションの管理を使うはファイルを前後にメールするよりも優れています：
 
-*   Nothing that is committed to version control is ever lost, unless
-    you work really, really hard at it. Since all old versions of
-    files are saved, it's always possible to go back in time to see
-    exactly who wrote what on a particular day, or what version of a
-    program was used to generate a particular set of results.
+*   バージョン管理にコミットされているものは、実際には本当にどうしようもなくならない限り、失われることはありません。古いバージョンのファイルはすべて保存されているので、特定の日に誰が何を書き込んだのか、特定の結果セットを生成するためにどのバージョンのプログラムを使用したのかを正確に確認するために状態を復元することは常に可能です。
 
-*   As we have this record of who made what changes when, we know who to ask
-    if we have questions later on, and, if needed, revert to a previous
-    version, much like the "undo" feature in an editor.
+*   誰が何をいつ変更したのかというこの記録を持っているので、後に問いが生じた場合に尋ねるべき人がわかり、必要に応じてエディタの "元に戻す"機能と同じように、以前のバージョンに戻します。
 
-*   When several people collaborate in the same project, it's possible to
-    accidentally overlook or overwrite someone's changes. The version control
-    system automatically notifies users whenever there's a conflict between one
-    person's work and another's.
+*   同じプロジェクトで複数の人が協力し合う場合、間違って誰かの変更を見落としたり上書きしたりする可能性があります。バージョン管理システムは、ある人の仕事と別の人の仕事との間に不一致がある場合、自動的にユーザーに知らせてくれます。
 
-Teams are not the only ones to benefit from version control: lone
-researchers can benefit immensely.  Keeping a record of what was
-changed, when, and why is extremely useful for all researchers if they
-ever need to come back to the project later on (e.g., a year later,
-when memory has faded).
 
-Version control is the lab notebook of the digital world: it's what
-professionals use to keep track of what they've done and to
-collaborate with other people.  Every large software development
-project relies on it, and most programmers use it for their small jobs
-as well.  And it isn't just for software: books,
-papers, small data sets, and anything that changes over time or needs
-to be shared can and should be stored in a version control system.
+チームのみがバージョン管理の恩恵を受けるわけではありません:
+孤独な研究者は莫大な利益を得ることができます。
+何が、いつ、何故変わったのかを記録しておくことは、後でプロジェクトに復帰する必要が出た場合（例えば、1年後、記憶が衰えた場合など）、すべての研究者にとって非常に有益です。
+
+バージョン管理は、デジタル世界のラボノートです。これは、専門家が行ったことを追跡し、他の人と共同作業するために使用するものです。すべての大規模なソフトウェア開発プロジェクトはそれに依存しており、ほとんどのプログラマーは小規模な仕事にもそれを使用しています。またそれはソフトウェアだけのためのものではありません: 書籍、論文、小さなデータセット、ならびに時間の経過とともに変化するものもしくは共有する必要があるものは、何でもバージョンコントロールシステムに保存することができますしそうすべきです。
 
 > ## Prerequisites
 >
